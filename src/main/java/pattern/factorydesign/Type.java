@@ -2,5 +2,6 @@ package pattern.factorydesign;
 
 public enum Type {
     PC,
-    SERVER;
+    SERVER,
+    NULL_TEST;
 }

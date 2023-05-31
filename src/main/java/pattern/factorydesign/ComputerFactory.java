@@ -1,13 +1,15 @@
 package pattern.factorydesign;
 
+import java.util.Optional;
+
 public class ComputerFactory {
-    public static Computer createComputer(Type type) {
+    public static Computer createComputer(Type type, String ram, String cpu, String hdd) {
         switch (type) {
             case PC:
-                return new PC("16 GB", "4.1 GHz", "2 TB");
+                return new PC(ram, cpu, hdd);
 
             case SERVER:
-                return new Server("28 GB", "4.1 GHz", "10 TB");
+                return new Server(ram, cpu, hdd);
 
             default: return null;
         }

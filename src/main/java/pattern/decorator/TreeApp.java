@@ -17,9 +17,5 @@ public class TreeApp {
         //Christmas Tree with Tree Topper
         ChristmasTree christmasTreeWithTreeTopper = new TreeTopper(realChristmasTree);
         System.out.println(christmasTreeWithTreeTopper.decorate());
-
-
-
-
     }
 }
