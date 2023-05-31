@@ -4,14 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8b7df01-d681-46d5-8348-16a75549abe6" name="Changes" comment="" />
+    <list default="true" id="b8b7df01-d681-46d5-8348-16a75549abe6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/decorator/BubbleLights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/decorator/ChristmasTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/decorator/Garland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/decorator/RealChristmasTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/decorator/TreeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/decorator/TreeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/decorator/TreeTopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/factorydesign/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/factorydesign/ComputerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/factorydesign/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/factorydesign/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/factorydesign/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/factorydesign/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/singleton/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/singleton/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/singleton/ProductApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -21,7 +56,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2QY7puR4YY8eCQTtRLJFBgUoC5V" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,9 +66,58 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.ProductApp">
+    <configuration name="ComputerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.factorydesign.ComputerApp" />
+      <module name="Exercises_design_patterns_Deel_1_ABerns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.factorydesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.singleton.ProductApp" />
+      <module name="Exercises_design_patterns_Deel_1_ABerns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.decorator.TreeApp" />
+      <module name="Exercises_design_patterns_Deel_1_ABerns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProductApp" />
+        <item itemvalue="Application.TreeApp" />
+        <item itemvalue="Application.ComputerApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

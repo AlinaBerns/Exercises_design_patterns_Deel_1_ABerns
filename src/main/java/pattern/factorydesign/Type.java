@@ -1,2 +1,6 @@
-package pattern.factorydesign;public enum Type {
+package pattern.factorydesign;
+
+public enum Type {
+    PC,
+    SERVER;
 }
