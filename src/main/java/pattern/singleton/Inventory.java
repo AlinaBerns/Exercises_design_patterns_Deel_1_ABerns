@@ -2,6 +2,7 @@ package pattern.singleton;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public final class Inventory {
     private static Inventory inventory;
