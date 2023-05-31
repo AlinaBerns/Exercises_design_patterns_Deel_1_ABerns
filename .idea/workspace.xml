@@ -7,8 +7,7 @@
     <list default="true" id="b8b7df01-d681-46d5-8348-16a75549abe6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pattern/singleton/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/singleton/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pattern/singleton/InventoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pattern/singleton/InventoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pattern/singleton/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pattern/singleton/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/singleton/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/singleton/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

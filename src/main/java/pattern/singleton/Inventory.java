@@ -25,7 +25,9 @@ public final class Inventory {
     }
 
     public void productRemove (Product product){
-        products.remove(product);
+        while (products.contains(product)) {
+            products.remove(product);
+        }
     }
 
     public void printProducts() {
