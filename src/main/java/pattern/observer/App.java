@@ -14,6 +14,9 @@ public class App {
 
         company.createNewProduct(new Product("WINDOWS 2036"));
 
+        company.removeObserver(influencer1);
+        company.createNewProduct(new Product("LINUX RED 65100"));
+
 
     }
 }

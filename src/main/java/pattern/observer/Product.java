@@ -13,8 +13,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
-                "nameProduct='" + nameProduct + '\'' +
-                '}';
+        return Colors.ANSI_GREEN + nameProduct + Colors.ANSI_RESET;
     }
 }

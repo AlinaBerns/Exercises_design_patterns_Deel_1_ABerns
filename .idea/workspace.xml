@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8b7df01-d681-46d5-8348-16a75549abe6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/composite/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/composite/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/composite/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/composite/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/composite/Mix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/composite/Sugar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/observer/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/observer/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/observer/Influencer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/observer/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/composite/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/observer/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/strategy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/strategy/ArraySorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/strategy/ArraySortingAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/strategy/BubbleSortAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/strategy/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/strategy/MergeSortAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/decorator/TreeTopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/decorator/TreeTopper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/composite/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/composite/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/composite/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/composite/Banana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/composite/Sugar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/composite/Sugar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/observer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/observer/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/observer/Influencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/observer/Influencer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pattern/observer/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/observer/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -75,7 +76,7 @@
       <recent name="pattern.factorydesign" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pattern.composite.App">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.observer.App" />
       <module name="Exercises_design_patterns_Deel_1_ABerns" />
@@ -128,28 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="pattern.strategy.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.strategy.App" />
       <module name="Exercises_design_patterns_Deel_1_ABerns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.singleton.*" />
+          <option name="PATTERN" value="pattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pattern.singleton" />
-      <option name="MAIN_CLASS_NAME" value="pattern.singleton.ProductTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pattern.composite.App" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.pattern.strategy.App" />
+        <item itemvalue="Application.pattern.composite.App" />
         <item itemvalue="Application.AppDrawing" />
         <item itemvalue="Application.ProductApp" />
-        <item itemvalue="JUnit.ProductTest" />
       </list>
     </recent_temporary>
   </component>

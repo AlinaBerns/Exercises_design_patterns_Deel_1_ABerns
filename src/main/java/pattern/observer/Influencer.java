@@ -12,7 +12,7 @@ public class Influencer implements Observer{
 
     @Override
     public void update(Product product) {
-        System.out.println("Beste " + getName()
+        System.out.println("Beste " + Colors.ANSI_BLUE+getName()+Colors.ANSI_RESET
                 + "\nWe hebben een nieuwe product ontvangen: " + product + "\n"+"=".repeat(100));
     }
 }
